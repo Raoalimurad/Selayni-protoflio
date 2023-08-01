@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zingo Burger</title>
+</head>
+<body>
+    <hr>
+    <h1 style="text-align: center;">This is Zingo Burger :</h1>
+    <h2  style="text-align: center;">knowledge about Zingo Burger:</h2>
+    <hr>
+    <p>A sandwich consisting of a patty made from ground chicken, served in a bun, typically hot and often with other ingredients.</p>
+    <img src="../images/zingobur.jpeg" height="500" width="700">
+</body>
+</html>

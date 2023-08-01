@@ -1,0 +1,33 @@
+.heelo{
+    text-align: center;
+}
+.heelo input{
+    border: 2px solid black;
+    border-radius: 13px;
+    background-color:rosybrown;
+    padding: 6px;
+cursor: pointer;
+    color:black;
+}
+.heelo button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 16px;
+    background-color: rosybrown;
+    cursor: pointer;
+    width: 70px;
+}
+.heelo h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+    text-shadow:2px 2px red; 
+    
+    
+    
+    
+}
+.tab tr{
+    margin: 2px;
+}

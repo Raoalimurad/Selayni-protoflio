@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <style>
+        .container{
+            background-image: url('./mazaq.jpeg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 style="text-align: center";>ADMISSION FORM :</h1>
+    <hr width="500">
+    <form action="">
+    <table  cellpadding="10">
+        <tr>
+            
+            <td ><label for="nar">Full Name :</label></td>
+            <td ><input type="text" name="name"  required placeholder="entre your name" id="nar" >(max 30 characters a-z and A-Z)</td>
+        
+        </tr>
+        <tr>
+            <td><label for="father">Father Name :</label></td>
+            <td><input type="text" name="name" placeholder="entre your father name" id="father" required>(max 30 characters a-z and A-Z)</td>
+        </tr>
+        <tr>
+            <td><label for="birth">Date Of Birth :</label></td>
+            <td><input type="date" name="name" placeholder="entre your father name" id="birth" required></td>
+        </tr>
+        <tr>
+            <td><label for="emal">Email Address :</label></td>
+            <td><input type="email" required    name="email" placeholder="entre your email Address" id="emal" ></td>
+        </tr>
+        <tr>
+            <td><label for="num">Phone Number :</label></td>
+            <td><input type="number" name="number" placeholder="entre your phone number" id="num" required> (11 digit number)</td>
+        </tr>
+        <tr>
+            <td>GENDER :</td>
+            <td><label for="mal">MALE</label>
+                <input type="radio" name="gender" value="male" id="mal"> 
+                <label for="fe">FEMALE</label>
+            <input type="radio" name="gender" value="female" id="fe" ></td>
+        </tr>
+        <tr>
+            <td><label for="mes">Message : <br/> <br/> <br/></label></td>
+            <td> <textarea name="message"  cols="20" rows="5" id="mes"></textarea></td>
+        </tr>
+        <tr>
+        <td>Country Name :</td>
+        <td><select >
+            <option value="">Select Country</option>
+            <option value="AF">Afghanistan</option>
+    <option value="PAKISTAN">Pakistan</option>
+    <option value="AL">Albania</option>
+    <option value="DZ">Algeria</option>
+    <option value="AS">American Samoa</option>
+    <option value="AD">Andorra</option>
+    <option value="AO">Angola</option>
+    <option value="AI">Anguilla</option>
+    <option value="AQ">Antarctica</option>
+    <option value="AG">Antigua and Barbuda</option>
+    <option value="AR">Argentina</option>
+    <option value="AM">Armenia</option>
+    <option value="AW">Aruba</option>
+    <option value="AU">Australia</option>
+    <option value="AT">Austria</option>
+    <option value="AZ">Azerbaijan</option>
+    <option value="BS">Bahamas</option>
+    <option value="BH">Bahrain</option>
+    <option value="BD">Bangladesh</option>
+    <option value="BB">Barbados</option>
+    <option value="BY">Belarus</option>
+    <option value="BE">Belgium</option>
+    <option value="BZ">Belize</option>
+    <option value="BJ">Benin</option>
+        </select></td>
+        </tr>
+    
+
+        <tr>
+            <td>City Name :</td>
+            <td>
+            <select name="city">
+                <option value="">select city</option>
+                <option value="KARACHI">KARACHI</option>
+                <option value="ISLAMABAD">ISLAMABAD</option>
+                <option value="LAHORE">LAHORE</option>
+                <option value="HYDERABAD">HYDERABAD</option>
+               <option value="QUETTA">QUETTA</option>
+                <option value="MULTAN">MULTAN</option>
+               
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td><label for="pass">Password :</label></td>
+            <td><input type="password" name="password" placeholder="enter your password" required maxlength="11" id="pass"  required></td>
+        </tr>
+        <tr>
+            <td>Hobbies :</td>
+            <td><input type="checkbox" name="hoby" value="CRICKET">CRICKET
+            <input type="checkbox" name="hoby" value="FOOTBALL">FOOTBALL
+            <input type="checkbox" name="hoby" value="drawing">DRAWING
+            <input type="checkbox" name="hoby" value="OTHERS">OTHERS
+        </td>
+        </tr>
+        <tr>
+            <td>QUALIFICATION: <br/> <br/> <br/> <br/><br/><br/> </td>
+            <td>
+            <table>
+                <tr>
+                    <td align="center"><b>SI.NO</b></td>
+                    <td align="center"><b>EXAMINATION</b></td>
+                    <td align="center"><b>BOARD</b></td>
+                    <td align="center"><b>PERCENTAGE</b></td>
+                    <td align="center"><b>YEAR OF PASSING</b></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="board"></td>
+                    <td><input type="text" name="percentage"></td>
+                    <td><input type="text" name="year of passsing"></td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="board" maxlength="20"></td>
+                    <td><input type="text" name="percentage" maxlength="20" ></td>
+                    <td><input type="text" name="year of passsing" maxlength="20"></td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="board" maxlength="20"></td>
+                    <td><input type="text" name="percentage" maxlength="20"></td>
+                    <td><input type="text" name="year of passsing"maxlength="20"></td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Master</td>
+                    <td><input type="text" name="board" maxlength="20"></td>
+                    <td><input type="text" name="percentage" maxlength="20"></td>
+                    <td><input type="text" name="year of passsing"maxlength="20"></td>
+
+                </tr>
+           
+            </table>
+            
+
+        </tr>
+        <tr>
+            <td>Courses:</td>
+            <td><label for="htm">HTML</label>
+                <input type="checkbox" name="course" id="htm">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="course" id="css">
+                <label for="java">JAVASCRIPT</label>
+                <input type="checkbox" name="course" id="java">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"> <input type="submit" value="Submit"><input type="button" value="Reset">
+
+        </td></tr>
+       >
+    </table>
+</form>
+       
+</div>
+        
+</body>
+</html>
