@@ -1,2 +1,2 @@
 # Selayni-portfolio
-selayniprotfliobyraoalimurad.netlify.app
+https://selayniprotfliobyraoalimurad.netlify.app
